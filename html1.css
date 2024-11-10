@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 2</title>
+    <style>
+        .container h1 {
+            color: darkblue;
+        }
+        .container p {
+            color: darkgreen;
+        }
+        .container a {
+            color: darkred;
+            text-decoration: underline;
+        }
+        .container table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        .container table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Заголовок</h1>
+        <p>Це параграф всередині контейнера.</p>
+        <a href="#">Контекстне посилання</a>
+        <table>
+            <tr>
+                <td>Текст 1</td>
+                <td>Текст 2</td>
+            </tr>
+            <tr>
+                <td>Текст 3</td>
+                <td>Текст 4</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
