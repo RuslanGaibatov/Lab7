@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 3</title>
+    <style>
+        h3 + ul {
+            list-style-type: square;
+            color: blue;
+        }
+        ul + h3 {
+            color: darkblue;
+        }
+        h3 + p {
+            color: darkgreen;
+        }
+        p + a {
+            color: darkred;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Рецепт борщу</h1>
+    <h3>Приготування</h3>
+    <ul>
+        <li>Крок 1</li>
+        <li>Крок 2</li>
+        <li>Крок 3</li>
+    </ul>
+    <h3>Подача</h3>
+    <p>Подаємо гарячим з хлібом.</p>
+    <p>Насолоджуйтесь!</p>
+    <a href="#">Дізнатись більше</a>
+</body>
+</html>
