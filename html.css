@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 1</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            margin: 10px;
+        }
+        h1 {
+            color: darkblue;
+        }
+        p {
+            color: darkgreen;
+        }
+        a {
+            color: darkred;
+            text-decoration: none;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+        table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Заголовок сторінки</h1>
+    <p>Це приклад параграфа з курсивом та стилізацією.</p>
+    <a href="#">Посилання на сторінку</a>
+    <table>
+        <tr>
+            <td>Текст 1</td>
+            <td>Текст 2</td>
+        </tr>
+        <tr>
+            <td>Текст 3</td>
+            <td>Текст 4</td>
+        </tr>
+    </table>
+</body>
+</html>
