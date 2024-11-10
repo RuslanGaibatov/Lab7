@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 5</title>
+    <style>
+        a[href] {
+            color: darkblue;
+        }
+        img[alt] {
+            border: 2px solid green;
+        }
+        input[type="text"] {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://example.com">Посилання на приклад</a>
+    <img src="image.jpg" alt="Приклад зображення">
+    <form>
+        <label>Ім'я:</label>
+        <input type="text" name="name">
+    </form>
+</body>
+</html>
+
